@@ -1,4 +1,3 @@
-//NIM dabs október 1997
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6,29 +5,29 @@
 
 using namespace std;
 
-//Şetta fall á ağ birta stöğu allra eldspıtnahrúgna (hrúgur í fleirtölu eignarfalli)
+//Ãetta fall Ã¡ aÃ° birta stÃ¶Ã°u allra eldspÃ½tnahrÃºgna (hrÃºgur Ã­ fleirtÃ¶lu eignarfalli)
 void birta( int* hruga );
 
-//Şetta fall á ağ reikna út hversu margar eldspıtur eru eftir í hrúgunum:
+//Ãetta fall Ã¡ aÃ° reikna Ãºt hversu margar eldspÃ½tur eru eftir Ã­ hrÃºgunum:
 int samtals( int* hruga );
 
-//Şetta fall lætur tölvuna gera:
+//Ãetta fall lÃ¦tur tÃ¶lvuna gera:
 void tolva( int* hruga );
 
-//Şetta fall lætur notandann gera:
+//Ãetta fall lÃ¦tur notandann gera:
 void notandi( int* hruga );
 
-//Şetta fall birtir reglurnar í spilinu:
+//Ãetta fall birtir reglurnar Ã­ spilinu:
 void hjalp( );
 
-//Şetta fall spilar spiliğ:
+//Ãetta fall spilar spiliÃ°:
 void spila( );
 
-//Ég leyfi mér ağ nota eina víğværa breytu af şví ağ forritiğ notar alltaf
-//mismargar hrúgur í hvert og eitt skipti:
+//Ã‰g leyfi mÃ©r aÃ° nota eina vÃ­Ã°vÃ¦ra breytu af Ã¾vÃ­ aÃ° forritiÃ° notar alltaf
+//mismargar hrÃºgur Ã­ hvert og eitt skipti:
 int hrugufjoldi;
 
-//Hér byrjar ağalforritiğ:
+//HÃ©r byrjar aÃ°alforritiÃ°:
 int main( )
 {
 	int val;
@@ -99,13 +98,12 @@ void hjalp( )
 	cout << "Keppendur setja einhvern fjolda af eldspytum i hrugur " << endl;
 	cout << "(their akveda sjalfir hve margar hrugur og hve margar " << endl;
 	cout << "eldspytur i hverri hrugu) og skiptast svo a um ad " << endl;
-	cout << "draga eldspytur ur einhverri hrugunni.  Their mega " << endl;
-	cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
+	cout << "draga eldspytur ur einhverri hrugunni.  Their mega " << endl;	cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
 	cout << "hrugunni en their mega aldrei taka ur fleiri en " << endl;
 	cout << "einni hrugu i einu.  Sa sem tekur sidustu eldspytuna " << endl;
-	cout << "ur sidustu hrugunni vinnur.  Gangi ykkur vel! " << endl << endl;
-	cout << "Sladu a einhvern lykil... " << endl;
-	getchar( );
+	cout << "ur sidustu hrugunni vinnur.  Gangi ykkur vel! " << endl; << endl;	cout << "Og gangi mÃ©r vel, ekki veitir mer af!" << endl;
+	cout << "Sladu a einhvern lykil... " << endl;	
+	getchar( );E
 }
 
 void birta( int* hruga )
